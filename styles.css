@@ -48,8 +48,9 @@
     right: 12px;
     background: none;
     border: none;
-    font-size: 1.2rem;
+    width: 40px;
     cursor: pointer;
+    filter: invert(1);
 }
 
 /* NAVBAR */
