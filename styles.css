@@ -133,7 +133,7 @@ html {
 }
 
 .loc-title h4 {
-    color: Black;
+    color: rgb(75, 73, 73);
     font-size: clamp(14px, 2vw, 18px);
     padding-top: 5px;
 }
@@ -147,15 +147,6 @@ html {
 
 .footer-section {
     max-width: 900px;
-}
-
-.footer-logo img {
-    width: 150px;
-}
-
-.reg-lan {
-    display: flex;
-
 }
 
 .region,
@@ -231,7 +222,3 @@ html {
 .social-icons img {
     width: 20px;
 }
-
-/* button {
-    box-sizing: content-box;
-} */
