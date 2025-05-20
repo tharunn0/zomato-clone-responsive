@@ -124,6 +124,7 @@ html {
 
 .loc-btn {
     transition: transform 0.3s ease;
+    max-width: 350px;
 }
 
 .loc-btn:hover {
@@ -231,13 +232,6 @@ html {
     width: 20px;
 }
 
-button {
+/* button {
     box-sizing: content-box;
-}
-
-/* @media (max-width:576px) {
-    .socials {
-        display: block;
-        color: green;
-    }
 } */
