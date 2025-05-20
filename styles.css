@@ -1,6 +1,9 @@
+html {
+    overscroll-behavior: none;
+}
+
 /* MODAL */
 
-/* Modal box */
 .overlay {
     position: fixed;
     top: 0;
@@ -84,7 +87,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 500px;
+    height: 600px;
 }
 
 .main-logo-section {
@@ -119,8 +122,13 @@
 
 }
 
-.loc-btn :hover {
-    background-color: lightgray;
+.loc-btn {
+    transition: transform 0.3s ease;
+}
+
+.loc-btn:hover {
+    background-color: rgb(238, 238, 238);
+    transform: scale(1.05);
 }
 
 .loc-title h4 {
